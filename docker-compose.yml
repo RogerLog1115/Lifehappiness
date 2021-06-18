@@ -26,7 +26,7 @@ services:
 
   database:
     image: mongo:4.4
-    container_name: fumongo
+    container_name: mongo
     command: mongod
     networks:
       - backend
